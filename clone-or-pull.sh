@@ -19,6 +19,7 @@ clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
 
 # rust
 clone_or_pull git@github.com:datafusedev/fuse-query.git ../fuse-query
+clone_or_pull git@github.com:Reeywhaar/nut.git ../nut
 
 # paxos
 clone_or_pull git@github.com:openacid/paxoskv.git ../paxoskv
