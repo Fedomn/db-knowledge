@@ -1,3 +1,5 @@
+pull="${PULL_ENV:-}"
+
 function clone_or_pull() {
   local repo_url=$1
   local clone_directory=$2
@@ -6,7 +8,11 @@ function clone_or_pull() {
   then
       git clone $repo_url $clone_directory
   else
-      cd $clone_directory
-      git pull --rebase
+		if [ -z "$pull" ]; then
+			echo "skip"
+		else
+			cd $clone_directory
+    	git pull --rebase
+    fi
   fi
 }

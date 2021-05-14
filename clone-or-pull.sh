@@ -6,6 +6,8 @@ source ./util.sh
 
 # b+tree
 clone_or_pull git@github.com:etcd-io/bbolt.git ../bbolt
+clone_or_pull git@github.com:boltdb/bolt.git ../bolt
+
 # cmu
 clone_or_pull git@github.com:cmu-db/bustub.git ../bustub
 # lsm-tree
