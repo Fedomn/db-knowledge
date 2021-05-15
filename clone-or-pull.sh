@@ -36,6 +36,9 @@ clone_or_pull git@github.com:pingcap/tidb.git ../tidb/tidb
 clone_or_pull git@github.com:tikv/tikv.git ../tidb/tikv
 clone_or_pull git@github.com:tidb-incubator/tinysql.git ../tidb/tinysql
 
+# graph
+clone_or_pull git@github.com:krotik/eliasdb.git ../graph/eliasdb
+
 # reading resources
 clone_or_pull git@github.com:tangwz/db-monthly.git ../db-monthly
 clone_or_pull git@github.com:rxin/db-readings.git ../db-readings
