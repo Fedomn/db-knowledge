@@ -43,6 +43,7 @@ clone_or_pull git@github.com:krotik/eliasdb.git ../graph/eliasdb
 # reading resources
 clone_or_pull git@github.com:tangwz/db-monthly.git ../db-monthly
 clone_or_pull git@github.com:rxin/db-readings.git ../db-readings
+clone_or_pull git@github.com:auxten/go-sqldb.git ../go-sqldb
 
 # fedomn
 clone_or_pull git@github.com:Fedomn/tinydb.git ../tinydb
