@@ -23,6 +23,7 @@ clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
 clone_or_pull git@github.com:datafusedev/fuse-query.git ../fuse-query
 clone_or_pull git@github.com:Reeywhaar/nut.git ../nut
 clone_or_pull git@github.com:spacejam/sled.git ../sled
+clone_or_pull git@github.com:jonhoo/msql-srv.git ../msql-srv
 
 # paxos
 clone_or_pull git@github.com:openacid/paxoskv.git ../paxoskv
