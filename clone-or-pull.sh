@@ -15,6 +15,7 @@ clone_or_pull git@github.com:syndtr/goleveldb.git ../goleveldb
 
 # sql
 clone_or_pull https://github.com/eatonphil/gosql ../gosql
+clone_or_pull git@github.com:dolthub/go-mysql-server.git ../go-mysql-server
 
 # LevelDB/RocksDB inspired kv used by CockroachDB
 clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
