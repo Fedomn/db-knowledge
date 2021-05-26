@@ -12,6 +12,7 @@ clone_or_pull git@github.com:boltdb/bolt.git ../bolt
 clone_or_pull git@github.com:cmu-db/bustub.git ../bustub
 # lsm-tree
 clone_or_pull git@github.com:syndtr/goleveldb.git ../goleveldb
+clone_or_pull git@github.com:codenotary/immudb.git ../immudb
 
 # sql
 clone_or_pull https://github.com/eatonphil/gosql ../gosql
