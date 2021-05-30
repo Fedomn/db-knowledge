@@ -6,7 +6,7 @@ source ./util.sh
 
 # b+tree
 clone_or_pull git@github.com:etcd-io/bbolt.git ../bbolt
-clone_or_pull git@github.com:boltdb/bolt.git ../bolt
+clone_or_pull git@github.com:Fedomn/bolt.git ../bolt
 
 # cmu
 clone_or_pull git@github.com:cmu-db/bustub.git ../bustub
@@ -20,6 +20,7 @@ clone_or_pull git@github.com:dolthub/go-mysql-server.git ../go-mysql-server
 
 # LevelDB/RocksDB inspired kv used by CockroachDB
 clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
+clone_or_pull git@github.com:ledisdb/ledisdb.git ../ledisdb
 
 # rust
 clone_or_pull git@github.com:datafusedev/fuse-query.git ../fuse-query
