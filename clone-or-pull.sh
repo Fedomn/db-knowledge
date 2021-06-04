@@ -27,6 +27,7 @@ clone_or_pull git@github.com:datafusedev/fuse-query.git ../fuse-query
 clone_or_pull git@github.com:Reeywhaar/nut.git ../nut
 clone_or_pull git@github.com:spacejam/sled.git ../sled
 clone_or_pull git@github.com:jonhoo/msql-srv.git ../msql-srv
+clone_or_pull git@github.com:erikgrinaker/toydb.git ../toydb
 
 # paxos
 clone_or_pull git@github.com:openacid/paxoskv.git ../paxoskv
