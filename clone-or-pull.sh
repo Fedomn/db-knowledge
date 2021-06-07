@@ -17,6 +17,7 @@ clone_or_pull git@github.com:codenotary/immudb.git ../immudb
 # sql
 clone_or_pull https://github.com/eatonphil/gosql ../gosql
 clone_or_pull git@github.com:dolthub/go-mysql-server.git ../go-mysql-server
+clone_or_pull git@github.com:ballista-compute/sqlparser-rs.git ../sqlparser-rs
 
 # LevelDB/RocksDB inspired kv used by CockroachDB
 clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
