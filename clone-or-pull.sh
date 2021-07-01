@@ -34,6 +34,7 @@ clone_or_pull git@github.com:erikgrinaker/toydb.git ../toydb
 clone_or_pull git@github.com:openacid/paxoskv.git ../paxoskv
 # raft
 clone_or_pull git@github.com:hashicorp/raft.git ../raft
+clone_or_pull git@github.com:rqlite/rqlite.git ../rqlite
 
 # tidb
 clone_or_pull https://github.com/pingcap/parser.git ../tidb/parser
