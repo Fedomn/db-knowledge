@@ -1,59 +1,71 @@
 #!/usr/bin/env bash
 
-set -euox pipefail
+#set -euox pipefail
 
 source ./util.sh
 
-# b+tree
-clone_or_pull git@github.com:etcd-io/bbolt.git ../bbolt
-clone_or_pull git@github.com:Fedomn/bolt.git ../bolt
+clone 'fedomn' '
+https://github.com/Fedomn/tinydb.git
+https://github.com/Fedomn/bolt.git
+https://github.com/Fedomn/bustub.git
+'
 
-# cmu
-clone_or_pull git@github.com:cmu-db/bustub.git ../bustub
-# lsm-tree
-clone_or_pull git@github.com:syndtr/goleveldb.git ../goleveldb
-clone_or_pull git@github.com:codenotary/immudb.git ../immudb
 
-# sql
-clone_or_pull https://github.com/eatonphil/gosql ../gosql
-clone_or_pull git@github.com:dolthub/go-mysql-server.git ../go-mysql-server
-clone_or_pull git@github.com:ballista-compute/sqlparser-rs.git ../sqlparser-rs
-clone_or_pull ghttps://github.com/BohuTANG/vectorsql ../vectorsql
+clone 'storage' '
+An embedded key/value database for Go
+https://github.com/etcd-io/bbolt.git
 
-# LevelDB/RocksDB inspired kv used by CockroachDB
-clone_or_pull git@github.com:cockroachdb/pebble.git ../pebble
-clone_or_pull git@github.com:ledisdb/ledisdb.git ../ledisdb
+Port of Bolt DB in Rust
+https://github.com/Reeywhaar/nut.git
 
-# rust
-clone_or_pull git@github.com:datafusedev/fuse-query.git ../fuse-query
-clone_or_pull git@github.com:Reeywhaar/nut.git ../nut
-clone_or_pull git@github.com:spacejam/sled.git ../sled
-clone_or_pull git@github.com:jonhoo/msql-srv.git ../msql-srv
-clone_or_pull git@github.com:erikgrinaker/toydb.git ../toydb
+LevelDB key/value database in Go.
+https://github.com/syndtr/goleveldb.git
 
-# paxos
-clone_or_pull git@github.com:openacid/paxoskv.git ../paxoskv
-# raft
-clone_or_pull git@github.com:hashicorp/raft.git ../raft
-clone_or_pull git@github.com:etcd-io/etcd.git ../etcd
-clone_or_pull git@github.com:rqlite/rqlite.git ../rqlite
-clone_or_pull ghttps://github.com/skyzh/raft-kvs.git ../raft-kvs
+RocksDB/LevelDB inspired key-value database in Go
+https://github.com/cockroachdb/pebble.git
+'
 
-# tidb
-clone_or_pull https://github.com/pingcap/parser.git ../tidb/parser
-clone_or_pull git@github.com:pingcap/pd.git ../tidb/pd
-clone_or_pull git@github.com:pingcap/talent-plan.git ../tidb/talent-plan
-clone_or_pull git@github.com:pingcap/tidb.git ../tidb/tidb
-clone_or_pull git@github.com:tikv/tikv.git ../tidb/tikv
-clone_or_pull git@github.com:tidb-incubator/tinysql.git ../tidb/tinysql
 
-# graph
-clone_or_pull git@github.com:krotik/eliasdb.git ../graph/eliasdb
+clone 'sql' '
+An early PostgreSQL implementation in Go
+https://github.com/eatonphil/gosql.git
 
-# reading resources
-clone_or_pull git@github.com:tangwz/db-monthly.git ../db-monthly
-clone_or_pull git@github.com:rxin/db-readings.git ../db-readings
-clone_or_pull git@github.com:auxten/go-sqldb.git ../go-sqldb
+Extensible SQL Lexer and Parser for Rust
+https://github.com/ballista-compute/sqlparser-rs.git
 
-# fedomn
-clone_or_pull git@github.com:Fedomn/tinydb.git ../tinydb
+VectorSQL is a free analytics DBMS for IoT & Big Data, compatible with ClickHouse.
+https://github.com/BohuTANG/vectorsql.git
+
+Distributed SQL database in Rust, written as a learning project
+https://github.com/erikgrinaker/toydb.git
+
+The lightweight, distributed relational database built on SQLite
+https://github.com/rqlite/rqlite.git
+'
+
+
+clone 'warehouse' '
+An elastic and scalable Cloud Warehouse
+https://github.com/datafuselabs/datafuse.git
+'
+
+
+clone 'consensus' '
+Naive and Basic impl of a kv-storage based on paxos
+https://github.com/openacid/paxoskv.git
+
+Distributed reliable key-value store for the most critical data of a distributed system
+https://github.com/etcd-io/etcd.git
+
+A distributed key-value store based on Raft. Similar to 6.824
+https://github.com/skyzh/raft-kvs.git
+'
+
+
+clone 'tidb' '
+https://github.com/pingcap/tidb.git
+https://github.com/tikv/tikv.git
+https://github.com/pingcap/parser.git
+https://github.com/pingcap/pd.git
+https://github.com/pingcap/talent-plan.git
+'
