@@ -60,6 +60,9 @@ https://github.com/etcd-io/etcd.git
 
 A distributed key-value store based on Raft. Similar to 6.824
 https://github.com/skyzh/raft-kvs.git
+
+An implementation of the Raft distributed consensus protocol using the Tokio framework.
+https://github.com/async-raft/async-raft
 '
 
 
