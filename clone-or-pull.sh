@@ -42,6 +42,10 @@ https://github.com/erikgrinaker/toydb.git
 
 The lightweight, distributed relational database built on SQLite
 https://github.com/rqlite/rqlite.git
+
+It provides an industry standard SQL parser and validator, a customisable optimizer with pluggable rules and cost functions, 
+logical and physical algebraic operators, various transformation algorithms from SQL to algebra (and the opposite)
+https://github.com/apache/calcite.git
 '
 
 
