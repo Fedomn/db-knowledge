@@ -9,6 +9,14 @@ https://github.com/Fedomn/tinykv.git
 https://github.com/Fedomn/tinydb.git
 https://github.com/Fedomn/bolt.git
 https://github.com/Fedomn/bustub.git
+https://github.com/Fedomn/6.824.git
+'
+
+
+clone 'reading' '
+https://github.com/rxin/db-readings.git
+https://github.com/rxin/jvm-readings.git
+https://github.com/tangwz/db-monthly.git
 '
 
 
@@ -67,6 +75,9 @@ https://github.com/skyzh/raft-kvs.git
 
 An implementation of the Raft distributed consensus protocol using the Tokio framework.
 https://github.com/async-raft/async-raft
+
+A feature complete and high performance multi-group Raft library in Go.
+https://github.com/lni/dragonboat.git
 '
 
 
