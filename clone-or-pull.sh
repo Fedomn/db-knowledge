@@ -12,7 +12,8 @@ https://github.com/Fedomn/bustub.git
 https://github.com/Fedomn/6.824.git
 https://github.com/Fedomn/docker-hadoop.git
 https://github.com/Fedomn/docker-spark.git
-https://github.com/Fedomn/Spark-The-Definitive-Guide.git
+#https://github.com/Fedomn/Spark-The-Definitive-Guide.git
+https://github.com/Fedomn/spark-playground.git
 '
 
 
