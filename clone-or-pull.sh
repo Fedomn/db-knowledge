@@ -21,6 +21,7 @@ clone 'reading' '
 https://github.com/rxin/db-readings.git
 https://github.com/rxin/jvm-readings.git
 https://github.com/tangwz/db-monthly.git
+https://github.com/Sunt-ing/database-system-readings
 '
 
 
