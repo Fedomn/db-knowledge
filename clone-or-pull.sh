@@ -15,6 +15,7 @@ https://github.com/Fedomn/docker-spark.git
 #https://github.com/Fedomn/Spark-The-Definitive-Guide.git
 https://github.com/Fedomn/spark-playground.git
 https://github.com/Fedomn/how-query-engines-work.git
+https://github.com/Fedomn/how-query-engine-work.git
 '
 
 
