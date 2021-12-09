@@ -6,6 +6,7 @@ source ./util.sh
 
 clone 'fedomn' '
 https://github.com/Fedomn/tinykv.git
+https://github.com/Fedomn/tinysql.git
 https://github.com/Fedomn/tinydb.git
 https://github.com/Fedomn/bolt.git
 https://github.com/Fedomn/bustub.git
