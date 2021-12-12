@@ -48,7 +48,7 @@ An early PostgreSQL implementation in Go
 https://github.com/eatonphil/gosql.git
 
 Extensible SQL Lexer and Parser for Rust
-https://github.com/ballista-compute/sqlparser-rs.git
+https://github.com/sqlparser-rs/sqlparser-rs.git
 
 VectorSQL is a free analytics DBMS for IoT & Big Data, compatible with ClickHouse.
 https://github.com/BohuTANG/vectorsql.git
