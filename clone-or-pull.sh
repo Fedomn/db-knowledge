@@ -79,7 +79,7 @@ Naive and Basic impl of a kv-storage based on paxos
 https://github.com/openacid/paxoskv.git
 
 Distributed reliable key-value store for the most critical data of a distributed system
-https://github.com/etcd-io/etcd.git
+# https://github.com/etcd-io/etcd.git
 
 A distributed key-value store based on Raft. Similar to 6.824
 https://github.com/skyzh/raft-kvs.git
@@ -88,14 +88,14 @@ An implementation of the Raft distributed consensus protocol using the Tokio fra
 https://github.com/async-raft/async-raft
 
 A feature complete and high performance multi-group Raft library in Go.
-https://github.com/lni/dragonboat.git
+# https://github.com/lni/dragonboat.git
 '
 
 
 clone 'tidb' '
 https://github.com/pingcap/tidb.git
 https://github.com/tikv/tikv.git
-https://github.com/pingcap/parser.git
-https://github.com/pingcap/pd.git
-https://github.com/pingcap/talent-plan.git
+# https://github.com/pingcap/parser.git
+# https://github.com/pingcap/pd.git
+# https://github.com/pingcap/talent-plan.git
 '
