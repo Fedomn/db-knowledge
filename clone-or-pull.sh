@@ -65,9 +65,12 @@ https://github.com/apache/calcite.git
 '
 
 
-clone 'warehouse' '
+clone 'olap' '
 An elastic and scalable Cloud Warehouse
 https://github.com/datafuselabs/datafuse.git
+
+RisingLight is an OLAP database system for educational purpose
+https://github.com/risinglightdb/risinglight.git
 '
 
 
