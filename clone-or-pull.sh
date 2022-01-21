@@ -9,13 +9,12 @@ https://github.com/Fedomn/tinykv.git
 https://github.com/Fedomn/tinysql.git
 https://github.com/Fedomn/tinydb.git
 https://github.com/Fedomn/bolt.git
-https://github.com/Fedomn/bustub.git
+#https://github.com/Fedomn/bustub.git
 https://github.com/Fedomn/6.824.git
 https://github.com/Fedomn/docker-hadoop.git
 https://github.com/Fedomn/docker-spark.git
 #https://github.com/Fedomn/Spark-The-Definitive-Guide.git
 https://github.com/Fedomn/spark-playground.git
-https://github.com/Fedomn/how-query-engines-work.git
 https://github.com/Fedomn/how-query-engine-work.git
 '
 
@@ -71,6 +70,9 @@ https://github.com/datafuselabs/datafuse.git
 
 RisingLight is an OLAP database system for educational purpose
 https://github.com/risinglightdb/risinglight.git
+
+Learn Rust type by implementing basic types in database systems
+https://github.com/skyzh/type-exercise-in-rust.git
 '
 
 
