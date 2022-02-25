@@ -73,6 +73,12 @@ https://github.com/risinglightdb/risinglight.git
 
 Learn Rust type by implementing basic types in database systems
 https://github.com/skyzh/type-exercise-in-rust.git
+
+Mirror of the official PostgreSQL GIT repository
+https://github.com/postgres/postgres.git
+
+Distributed SQL database in Rust, written as a learning project
+https://github.com/erikgrinaker/toydb.git
 '
 
 
