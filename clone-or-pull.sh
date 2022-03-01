@@ -39,6 +39,9 @@ https://github.com/syndtr/goleveldb.git
 
 RocksDB/LevelDB inspired key-value database in Go
 https://github.com/cockroachdb/pebble.git
+
+A port for rocksdb
+https://github.com/Little-Wallace/rocksdb-rs.git
 '
 
 
