@@ -15,4 +15,5 @@ collect some useful database reference repositories and reading resources
 - [pingcap awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 - [ali cloud database kernel monthly report](https://github.com/tangwz/db-monthly)
 - [Cloud Database Papers](https://github.com/TsinghuaDatabaseGroup/CloudDB)
+- [awesome-database-testing](https://github.com/zhangysh1995/awesome-database-testing)
 
