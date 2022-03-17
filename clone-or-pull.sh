@@ -64,6 +64,9 @@ https://github.com/rqlite/rqlite.git
 It provides an industry standard SQL parser and validator, a customisable optimizer with pluggable rules and cost functions, 
 logical and physical algebraic operators, various transformation algorithms from SQL to algebra (and the opposite)
 https://github.com/apache/calcite.git
+
+An efficient database query optimizer for large complex join queries
+https://github.com/yongwen/columbia.git
 '
 
 
