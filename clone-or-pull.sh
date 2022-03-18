@@ -85,6 +85,9 @@ https://github.com/postgres/postgres.git
 
 Distributed SQL database in Rust, written as a learning project
 https://github.com/erikgrinaker/toydb.git
+
+This is the official mirror of the MonetDB Mercurial repository
+https://github.com/MonetDB/MonetDB.git
 '
 
 
