@@ -16,4 +16,5 @@ collect some useful database reference repositories and reading resources
 - [ali cloud database kernel monthly report](https://github.com/tangwz/db-monthly)
 - [Cloud Database Papers](https://github.com/TsinghuaDatabaseGroup/CloudDB)
 - [awesome-database-testing](https://github.com/zhangysh1995/awesome-database-testing)
+- [Awesome materials about database development](https://github.com/huachaohuang/awesome-dbdev)
 
