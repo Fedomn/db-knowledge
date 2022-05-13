@@ -18,4 +18,5 @@ collect some useful database reference repositories and reading resources
 - [awesome-database-testing](https://github.com/zhangysh1995/awesome-database-testing)
 - [Awesome materials about database development](https://github.com/huachaohuang/awesome-dbdev)
 - [Calcite Author Slides](https://github.com/julianhyde/share/tree/main/slides)
+- [TsinghuaDatabaseGroup cloud database papers](https://github.com/TsinghuaDatabaseGroup/CloudDB)
 
