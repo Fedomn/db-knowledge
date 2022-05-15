@@ -42,6 +42,9 @@ https://github.com/cockroachdb/pebble.git
 
 A port for rocksdb
 https://github.com/Little-Wallace/rocksdb-rs.git
+
+CaskDB - Disk based Log Structured Hash Table Store (educational) build your own disk based KV store
+https://github.com/avinassh/py-caskdb.git
 '
 
 
