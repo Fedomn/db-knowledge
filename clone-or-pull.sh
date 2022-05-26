@@ -119,3 +119,8 @@ https://github.com/tikv/tikv.git
 # https://github.com/pingcap/pd.git
 # https://github.com/pingcap/talent-plan.git
 '
+
+clone 'streaming' '
+https://github.com/nwangtw/GrokkingStreamingSystems.git
+'
+
