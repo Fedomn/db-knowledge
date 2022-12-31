@@ -1,6 +1,6 @@
 ## db-knowledge
 
-collect some useful database reference repositories and reading resources
+collect some curated repositories and reading resources
 
 
 ### reading resources
@@ -19,4 +19,5 @@ collect some useful database reference repositories and reading resources
 - [Awesome materials about database development](https://github.com/huachaohuang/awesome-dbdev)
 - [Calcite Author Slides](https://github.com/julianhyde/share/tree/main/slides)
 - [TsinghuaDatabaseGroup cloud database papers](https://github.com/TsinghuaDatabaseGroup/CloudDB)
+- [Sunt-ing/database-system-readings](https://github.com/Sunt-ing/database-system-readings)
 
